@@ -91,14 +91,13 @@ esac
 
 uname -a
 
-module_flags=$(add_module $NGINX_MODULES)
 
 case "$HOST_OS" in
 	linux)
-		configure --with-file-aio --with-threads $module_flags
+		configure --with-file-aio --with-threads
 	;;
 	darwin)
-		configure --with-threads $module_flags
+		configure --with-threads
 	;;
 	win32)
 		openssl_dir=$(find_srcdir openssl)
@@ -109,8 +108,7 @@ case "$HOST_OS" in
 			--with-openssl="$openssl_dir" \
 			--with-pcre="$pcre_dir" \
 			--with-zlib="$zlib_dir" \
-			--with-openssl-opt='no-asm no-tests -D_WIN32_WINNT=0x0501' \
-			$module_flags
+			--with-openssl-opt='no-asm no-tests -D_WIN32_WINNT=0x0501'
 	;;
 esac
 
