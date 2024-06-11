@@ -12,7 +12,7 @@ on:
       - scripts/*
   pull_request:
   schedule:
-    - cron:  '0 0 * * 0'  # run each Sunday
+    - cron: '0 0 * * 0' # run each Sunday
 
 env:
   ALPINE_BRANCH: v3.18
@@ -85,7 +85,7 @@ jobs:
           - 1.26.x
     steps:
       - name: Install dependencies
-        run: brew install gsed jansson jq openssl@3 pcre zlib
+        run: brew install gsed jansson jq openssl@1.1 pcre zlib
 
       - name: Checkout master branch
         uses: actions/checkout@v4
