@@ -1,0 +1,8 @@
+https://github.com/nginx/nginx/archive/release-1.26.1/nginx-1.26.1.tar.gz 1239523 8e0e3621928f5c7a47a4043ae73877c7bde2147077a560c0ee4e648cc1aec7c9 1.26.1 nginx
+/usr/lib/gcc/x86_64-alpine-linux-musl/12.2.1/libgcc.a 3122660 86d4afbb238f141d6afc5a1fe13e62b79eda82c1296b703e10a9c638833d09eb 12.2.1_git20220924-r10 gcc
+/usr/lib/gcc/x86_64-alpine-linux-musl/12.2.1/libgcc_eh.a 259412 9998b193b223a15e3e4e0cc08af0b39076603e010e31a28decaa50205c7db2ac 12.2.1_git20220924-r10 gcc
+/usr/lib/libc.a 9136990 27933fb25c13300fceeccdf2df204580bb9ee863a0d2647e7cf93d2880ff2979 1.2.4-r2 musl
+/usr/lib/libcrypto.a 23731738 17f8dfcf1631936937747660c297e8205427a124e008ad867d0977cdb3358cc7 3.1.5-r0 openssl
+/usr/lib/libpcre.a 481980 64236103f5d7245a45377e4513a58baf57fc04d6c7e1bea493dcd699e5f1b886 8.45-r3 pcre
+/usr/lib/libssl.a 4003980 32190d2fa8db73337e8fcc69a408b2741e0dfc544d173111a2a4dced52d10a3f 3.1.5-r0 openssl
+/usr/lib/libssp_nonshared.a 3350 91a525c44d2b52eecebacf68d37b253fc880534cfa43db4222e046e458872778 1.2.4-r2 musl
