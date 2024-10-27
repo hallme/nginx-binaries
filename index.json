@@ -8,13 +8,13 @@
       "arch": "aarch64",
       "os": "linux",
       "filename": "nginx-1.25.5-aarch64-linux",
-      "date": "2024-09-08T00:22:39Z",
+      "date": "2024-10-27T00:23:06Z",
       "size": 4353144,
-      "checksum": "sha1:365a4a864008c896b24dabb1e3911a7d2cdaf898",
+      "checksum": "sha1:4b5bd9c7eb4d8ce947f0258f7d26fc41f6014985",
       "bundledLibs": {
         "gcc": "12.2.1_git20220924-r10",
         "musl": "1.2.4-r2",
-        "openssl": "3.1.7-r0",
+        "openssl": "3.1.7-r1",
         "pcre": "8.45-r3"
       }
     },
@@ -49,13 +49,13 @@
       "arch": "x86_64",
       "os": "linux",
       "filename": "nginx-1.25.5-x86_64-linux",
-      "date": "2024-09-08T00:22:39Z",
+      "date": "2024-10-27T00:23:07Z",
       "size": 5253160,
-      "checksum": "sha1:18ca7276cf5aaf51d4cbe5536c5eae6002f29489",
+      "checksum": "sha1:940d4a49e389ad1544af5d9d9b272b9e283921fc",
       "bundledLibs": {
         "gcc": "12.2.1_git20220924-r10",
         "musl": "1.2.4-r2",
-        "openssl": "3.1.7-r0",
+        "openssl": "3.1.7-r1",
         "pcre": "8.45-r3"
       }
     },
@@ -124,13 +124,13 @@
       "arch": "aarch64",
       "os": "linux",
       "filename": "nginx-1.26.2-aarch64-linux",
-      "date": "2024-09-08T00:22:39Z",
+      "date": "2024-10-27T00:23:06Z",
       "size": 4353144,
-      "checksum": "sha1:df623274d5a24617bc2a100af36532ebf3422623",
+      "checksum": "sha1:5cee7162b91bf46743136e25ee262010ceb7a9e6",
       "bundledLibs": {
         "gcc": "12.2.1_git20220924-r10",
         "musl": "1.2.4-r2",
-        "openssl": "3.1.7-r0",
+        "openssl": "3.1.7-r1",
         "pcre": "8.45-r3"
       }
     },
@@ -165,13 +165,13 @@
       "arch": "x86_64",
       "os": "linux",
       "filename": "nginx-1.26.2-x86_64-linux",
-      "date": "2024-09-08T00:22:39Z",
+      "date": "2024-10-27T00:23:07Z",
       "size": 5253160,
-      "checksum": "sha1:fe8e2eb59810efbd47cdda188c37ae97351dccb2",
+      "checksum": "sha1:e2a0ac81a78b3ca7a342cbcc151ff1868575789c",
       "bundledLibs": {
         "gcc": "12.2.1_git20220924-r10",
         "musl": "1.2.4-r2",
-        "openssl": "3.1.7-r0",
+        "openssl": "3.1.7-r1",
         "pcre": "8.45-r3"
       }
     }
