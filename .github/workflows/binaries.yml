@@ -76,7 +76,7 @@ jobs:
 
   nginx-x86_64-darwin:
     name: nginx-${{ matrix.NGINX_VERSION }}-x86_64-darwin
-    runs-on: macos-13
+    runs-on: macos-15-intel
     strategy:
       matrix:
         NGINX_VERSION:
@@ -116,7 +116,7 @@ jobs:
 
   nginx-aarch64-darwin:
     name: nginx-${{ matrix.NGINX_VERSION }}-aarch64-darwin
-    runs-on: macos-14
+    runs-on: macos-15
     strategy:
       matrix:
         NGINX_VERSION:
