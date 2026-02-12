@@ -3,16 +3,16 @@ on:
   push:
     # Don't run on version tags (these are used for JS module).
     tags-ignore:
-      - 'v**'
+      - "v**"
     branches:
-      - '**'
+      - "**"
     paths:
       - .github/workflows/binaries.yml
       - patches/*
       - scripts/*
   pull_request:
   schedule:
-    - cron: '0 0 * * 0' # run each Sunday
+    - cron: "0 0 * * 0" # run each Sunday
 
 env:
   ALPINE_BRANCH: v3.21
@@ -32,8 +32,7 @@ jobs:
     strategy:
       matrix:
         NGINX_VERSION:
-          - 1.25.x
-          - 1.26.x
+          - 1.28.x
         ARCH:
           - x86_64
           - aarch64
@@ -81,7 +80,7 @@ jobs:
     strategy:
       matrix:
         NGINX_VERSION:
-          - 1.26.x
+          - 1.28.x
     steps:
       - name: Install dependencies
         run: brew install gsed jansson jq openssl@3 pcre zlib
@@ -121,7 +120,7 @@ jobs:
     strategy:
       matrix:
         NGINX_VERSION:
-          - 1.26.x
+          - 1.28.x
     steps:
       - name: Install dependencies
         run: brew install gsed jansson jq openssl@3 pcre zlib
