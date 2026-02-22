@@ -1,4 +1,4 @@
 https://github.com/nginx/nginx/archive/release-1.28.2/nginx-1.28.2.tar.gz 1264024 76511b4c80f8400aabdd77b944be6b139444451d7a49ad1bfd901ec72d9dc021 1.28.2 nginx
 /usr/local/opt/openssl/lib/libcrypto.a 8779032 935e387fbef9928d3f6a57e2c60370154ac9f52c9aea647267c71b4dd7bd9756 3.6.1 openssl
 /usr/local/opt/openssl/lib/libssl.a 1428824 7524114ed4e6a050836fdbb9f08a1a08d4eb592d17b39c49c6a35dc3dcf504a2 3.6.1 openssl
-/usr/local/opt/zlib/lib/libz.a 102648 fdabedbe1b9c3ea66ef54b6e4a756d050a2e9734c931344226f7de6dc46935e9 1.3.1 zlib
+/usr/local/opt/zlib/lib/libz.a 102704 e5d3027798457a8c0d79989c5372465329fc06d51517a76cd27c9654238dbd91 1.3.1_1 zlib
