@@ -212,12 +212,12 @@
       "arch": "x86_64",
       "os": "darwin",
       "filename": "nginx-1.28.2-x86_64-darwin",
-      "date": "2026-02-22T00:16:30Z",
-      "size": 5609632,
-      "checksum": "sha1:91785e594f497378a2097720c2f36329cae36590",
+      "date": "2026-03-01T00:16:19Z",
+      "size": 5613760,
+      "checksum": "sha1:5e81d9470592b8f0feb41e0c0b7c7071aa8782fd",
       "bundledLibs": {
         "openssl": "3.6.1",
-        "zlib": "1.3.1_1"
+        "zlib": "1.3.2"
       }
     },
     {
