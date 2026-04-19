@@ -245,15 +245,15 @@
       "arch": "aarch64",
       "os": "linux",
       "filename": "nginx-1.28.3-aarch64-linux",
-      "date": "2026-04-12T00:20:10Z",
+      "date": "2026-04-19T00:21:27Z",
       "size": 5337000,
-      "checksum": "sha1:6481579ed43de1bc0754d19e87844a7514b9b193",
+      "checksum": "sha1:38d0198b3ab3e6a31a4c9ef3f8ace2fb79884869",
       "bundledLibs": {
         "gcc": "14.2.0-r4",
         "musl": "1.2.5-r11",
         "openssl": "3.3.7-r0",
         "pcre": "8.45-r3",
-        "zlib": "1.3.1-r2"
+        "zlib": "1.3.2-r0"
       }
     },
     {
@@ -275,11 +275,11 @@
       "arch": "x86_64",
       "os": "darwin",
       "filename": "nginx-1.28.3-x86_64-darwin",
-      "date": "2026-03-29T00:19:28Z",
-      "size": 5613760,
-      "checksum": "sha1:27de672008ecc9b81e1c1170813a8a23764ce7b8",
+      "date": "2026-04-19T00:21:27Z",
+      "size": 5613808,
+      "checksum": "sha1:ccf1597d4dd00d1dbf017fc91b2e0b24ffd2d083",
       "bundledLibs": {
-        "openssl": "3.6.1",
+        "openssl": "3.6.2",
         "zlib": "1.3.2"
       }
     },
@@ -290,15 +290,15 @@
       "arch": "x86_64",
       "os": "linux",
       "filename": "nginx-1.28.3-x86_64-linux",
-      "date": "2026-04-12T00:20:10Z",
+      "date": "2026-04-19T00:21:27Z",
       "size": 5696288,
-      "checksum": "sha1:89508db69f26b1d0aa62149cc25e7e111996b225",
+      "checksum": "sha1:a13c31fca325d01db4f55e034c5457fba74874a8",
       "bundledLibs": {
         "gcc": "14.2.0-r4",
         "musl": "1.2.5-r11",
         "openssl": "3.3.7-r0",
         "pcre": "8.45-r3",
-        "zlib": "1.3.1-r2"
+        "zlib": "1.3.2-r0"
       }
     }
   ]
